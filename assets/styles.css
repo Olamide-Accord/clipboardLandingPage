@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* Header */
+.header{
+    background-image: url("./images/bg-header-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+.header img{
+    margin: 5% 44%;
+}
+@media screen and (max-width: 768px) {
+    .header{
+        background-image: url("./images/bg-header-mobile.png");
+    }
+    .header img{
+        width: 15%;
+        margin: 16% 42%;
+    }
+}
+
+/* History */
+.history{
+    width: 65%;
+    margin: 3% auto 7%;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2%;
+    color: hsl(0, 0%, 35%);
+}
+p{
+    text-align: center;
+    font-weight: 200;
+    line-height: 2.25rem;
+    padding-bottom: 3%;
+    color: hsl(201, 11%, 50%);
+}
+.history p{
+    font-size: 1.5rem;
+}
+.buttons{
+    margin: 2% 7% 2% 15%;
+}
+.btn{
+    width: 40%;
+    height: 3.5rem;
+    color: white;
+    border: 0px;
+    font-size: 1.25rem;
+    border-radius: 2rem;
+    margin: 0px 0.5rem;
+    
+}
+.btn1{
+    background-color: hsl(171, 66%, 44%);
+}
+.btn2{
+    background-color: hsl(233, 100%, 69%);
+}
+.btn:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media screen and (max-width: 768px) {
+    .history{
+        width: 90%;
+        margin: 3% auto 10%;
+    }
+    h1{
+        font-size: 2rem;
+        padding: 4% 0px 6%;
+    }
+    p{
+        font-size: 13px;
+        line-height: 2rem;
+        word-spacing: 0.1rem;
+        letter-spacing: 0.1rem;
+    }
+    .btn{
+        width: 80%;
+        height: 3.5rem;
+        margin: 4% 8%;
+        font-size: 17px;
+    }
+}
+
+/* Track */
+.track{
+    width: 60%;
+    margin: 3% auto;
+}
+h2{
+    font-size: 2.5rem;
+    padding-bottom: 2%;
+    word-spacing: 0.2rem;
+    text-align: center;
+    color: hsl(0, 0%, 35%);
+}
+.track p, .clipboard p{
+    font-size: 1.25rem;
+}
+@media screen and (max-width: 768px) {
+    .track{
+        width: 90%;
+        margin: 3% auto 12%;
+    }
+    h2{
+        font-size: 2.25rem;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+}
+
+/* Computer */
+.row{
+    margin-top: 6%;
+    display: flex;
+}
+.col{
+    flex-basis: 48%;
+    margin-bottom: 8%;
+}
+.col2{
+    padding: 2rem 8%;
+}
+.col2 h4{
+    font-size: 1.5rem;
+    padding-bottom: 1.25rem;
+}
+.col2 p{
+    font-size: 18px;
+    text-align: start;
+    line-height: 1.75rem;
+}
+.col-grid{
+    margin: 1.75rem 0px;
+}
+@media screen and (max-width: 768px) {
+    .row{
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .col{
+        width: 90%;
+        margin: auto;
+    }
+    .col1 img{
+        width: 100%;
+    }
+    .col2{
+        padding: 0px;
+    }
+    .col2 p, .col2 h4{
+        text-align: center;
+    }
+}
+
+/* Access */
+.access{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.access p{
+    font-size: 1.25rem;
+}
+@media screen and (max-width: 768px) {
+    .access{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 3rem;
+    }
+    .access img{
+        margin-top: 1.5rem;
+        width: 100%;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+/* Supercharge */
+.supercharge{
+    width: 95%;
+    margin: auto;
+}
+.supercharge p{
+    font-size: 1.5rem;
+}
+.supercharge .row{
+    display: flex;
+    margin-top: 2rem;
+}
+.supercharge .col{
+    flex-basis: 30%;
+    margin: 0.75rem 1rem 4.5rem;
+}
+.supercharge .col img{
+    width: 20%;
+    margin: 1.25rem 8.25rem;
+}
+.col-text h5{
+    font-size: 1.75rem;
+    color: hsl(0, 0%, 35%);
+    text-align: center;
+    padding: 0.75rem 0px;
+}
+@media screen and (max-width: 768px) {
+    .supercharge{
+        width: 85%;
+        margin: auto;
+    }
+    .supercharge .col{
+        margin-bottom: 1.5rem;
+    }
+    .col-text p{
+        font-size: 1.25rem;
+    }
+}
+
+
+
+
+/* LOGOS */
+.logos .row{
+    width: 80%;
+    margin: auto;
+}
+
+.logos .col{
+    margin: 3%;
+}
+.logos img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .logos .row{
+        width: 90%;
+        margin: 8% auto;
+    }
+    .logos .col{
+        margin: 5% 10% 8% 28%;
+    }
+    .logos img{
+        width: 50%;
+    }
+}
+
+/* Clipboard */
+.clipboard{
+    width: 65%;
+    margin: 6% auto 7%;
+}
+@media screen and (max-width: 768px) {
+   .clipboard{
+       width: 90%;
+       margin: auto;
+       padding-bottom: 3.5rem;
+   } 
+}
+
+.footer{
+    background-color: hsl(0, 0%, 92%);
+}
+.footer .row{
+    padding-top: 5%;
+}
+.footer-logo{
+    width: 25%;
+    margin-left: 5rem;
+    padding-top: 2rem;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-list li{
+    list-style-type: none;
+    padding: 1.5rem;
+    width: 12rem;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+.footer-links{
+    margin-left: 7%;
+    padding-top: 2rem;
+}
+.footer-links a{
+    padding: 1rem;
+}
+.footer-links img{
+    width: 2.25rem;
+}
+.footer-list a:hover{
+    color: hsl(171, 66%, 49%);
+}
+@media screen and (max-width: 768px) {
+    .footer .row{
+        width: 90%;
+        margin: auto;
+    }
+    .footer-logo{
+        width: 22%;
+        margin: 1rem 8.25rem;
+    }
+    .footer-list{
+        margin: 1rem 5rem 0.5rem;
+        text-align: center;
+        display: block;
+    }
+    .footer-links{
+        margin: 1rem 5rem;
+        padding-bottom: 2rem;
+    }
+}
