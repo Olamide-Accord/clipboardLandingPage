@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body{
     font-family: 'Bai Jamjuree', sans-serif;
+    
 }
 
 /* Header */
@@ -51,7 +53,7 @@ p{
     font-size: 1.5rem;
 }
 .buttons{
-    margin: 2% 7% 2% 15%;
+    margin: 2% 7% 2% 13%;
 }
 .btn{
     width: 40%;
@@ -327,4 +329,5 @@ h2{
         margin: 1rem 5rem;
         padding-bottom: 2rem;
     }
+    
 }
